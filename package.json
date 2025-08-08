@@ -1,0 +1,10 @@
+{
+  "name": "omniverse-webrtc-streaming-lib",
+  "version": "1.0.0",
+  "description": "Patched NVIDIA Omniverse WebRTC Streaming Library with TURN/STUN and protocol fixes",
+  "main": "index.js",
+  "keywords": ["omniverse", "webrtc", "streaming", "nvidia", "patched"],
+  "author": "Nano112",
+  "license": "MIT",
+  "type": "commonjs"
+}
