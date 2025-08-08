@@ -2333,12 +2333,12 @@ b.startWebSocket.reconnect)):b.stopWebSocket?(null===N||void 0===N?void 0:N.unin
             const configuration = {
               iceServers: [
                 {
-                  urls: 'stun:stun.l.google.com:19302' // Google's public STUN server
+                  urls: 'stun:stun.l.google.com:19302'
                 },
                 {
-                  urls: 'turn:<Host IP Address (Public)>:3478', // Example TURN server
-                  username: 'admin', // TURN server credentials
-                  credential: '****'
+                  urls: 'turn:turn.redshift.gg:3478',
+                  username: 'webrtcuser',
+                  credential: 'webrtccred'
                 }
               ]
             };
